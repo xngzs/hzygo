@@ -60,7 +60,7 @@ blockquote:before {color:#ac9bd7;content:open-quote;font-size:4em;line-height:0.
 .section-head span:after {content:"";position:absolute;left:50px;height:5px;width:5px;top:6px;border-radius:50%;}
 .section-head.text-center {display:flex;flex-wrap:wrap;justify-content:center;}
 .section-head.text-center span {margin-left:-80px;}
-.section-blog-cover {height:700px;background-size:cover;}
+.section-blog-cover {height:400px;background-size:cover;}
 .section-shaped:after {background:-webkit-linear-gradient(135deg,rgba(221,236,229,0.88) 0,rgba(95,47,210,0.31) 100%);}
 .section-shaped:after,.section-shaped:before {position:absolute;width:100%;height:100%;display:block;left:0;top:0;content:"";}
 #search {position:fixed;top:0px;left:0px;width:100%;height:100%;background-color:#172050d1;-webkit-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;-webkit-transform:translate(0px,-100%) scale(0,0);-moz-transform:translate(0px,-100%) scale(0,0);-ms-transform:translate(0px,-100%) scale(0,0);-o-transform:translate(0px,-100%) scale(0,0);transform:translate(0px,-100%) scale(0,0);opacity:0;display:none;}
