@@ -6,7 +6,7 @@ Author: 专收爆米花
 Author URI: https://www.boxmoe.com
 Version: 3.0
 */
-@font-face {font-family:'Play';font-style:normal;src:url(../fonts/HarmonyOS_Sans_SC_Bold.ttf) format('truetype');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
+@font-face {font-family:'Play';font-style:normal;font-weight:400;src:url(../fonts/HarmonyOS_Sans_SC_Bold.ttf) format('truetype')}
 body {font-family:"Play","Microsoft Yahei","Open Sans",sans-serif;color:#5d6f84;font-size:15px;cursor:url(../images/arrow.cur),default;text-shadow:#ecdddd  0.031em 0.031em 0.051em;}
 ::-webkit-scrollbar-thumb {background-color:#a7b5fd;height:50px;outline-offset:-2px;outline:2px solid #fff;}
 ::-webkit-scrollbar {width:6px;height:6px;}
@@ -17,13 +17,14 @@ body {font-family:"Play","Microsoft Yahei","Open Sans",sans-serif;color:#5d6f84;
 a {color:#f78c93;cursor:url(../images/astyle.cur),auto;}
 a:hover {color:#E74C3C;cursor:url(../images/ahover.cur),alias;}
 a:link,a:visited,a:hover,a:active {text-decoration:none;}
-p {color:#5F6F81;cursor:url(../images/texto.cur),auto}
+p {color:#5F6F81;font-weight:300;cursor:url(../images/texto.cur),auto}
+h1,h2,h3,h4,h5,h6 {font-weight:700;}
 h1 {font-size:40px;}
 h2 {font-size:36px;}
-h3 {font-size:24px;letter-spacing:1px;}
-h4 {font-size:20px;letter-spacing:1px;}
-h5 {font-size:16px;letter-spacing:1px;}
-h6 {font-size:14px;letter-spacing:1px;}
+h3 {font-size:24px;letter-spacing:1px;font-weight:400;}
+h4 {font-size:20px;letter-spacing:1px;font-weight:400;}
+h5 {font-size:16px;letter-spacing:1px;font-weight:400;}
+h6 {font-size:14px;letter-spacing:1px;font-weight:400;}
 ol,ul {list-style:none;}
 textarea {height:100px;resize:none;}
 b,strong {font-weight:600;}
@@ -86,7 +87,7 @@ h1.main-title {text-align:center;color:#666;font-size:13px;font-weight:400;paddi
 .boxmoe-user-login .boxmoe_user-loader {float:left;position:relative}
 .boxmoe-user-login .boxmoe_user-loader a {border-radius:4px;background-color:#ffffff52!important;padding:.3em .8em;font-size:0.9em;color:#fff}
 .boxmoe-user-login .boxmoe_user-loader a:hover {background-color:#6b646473!important;}
-.boxmoe-user-login .boxmoe_user-loader b {display:block;position:absolute;top:50%;right:0;-webkit-transform:translate(50%,-50%);-ms-transform:translate(50%,-50%);transform:translate(50%,-50%);height:15px;width:15px;line-height:1.1;text-align:center;background:#fff;color:#81c483;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-border-radius:100%;border-radius:100%;font-size:11px;border:2px solid #e7e7e7;z-index:12}
+.boxmoe-user-login .boxmoe_user-loader b {display:block;position:absolute;top:50%;right:0;-webkit-transform:translate(50%,-50%);-ms-transform:translate(50%,-50%);transform:translate(50%,-50%);height:15px;width:15px;line-height:1.1;text-align:center;background:#fff;color:#81c483;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-border-radius:100%;border-radius:100%;font-size:11px;border:2px solid #e7e7e7;font-weight:400;z-index:12}
 .userlogin,.userlogin h5 {color:#fff;font-size:15px;}
 .userlogin a {color:#fff;font-size:15px;border-right:1px solid #D8D8D8;margin-right:12px;padding-right:12px;}
 .userlogin a:last-child {border-right:none;margin-right:0;padding-right:0;}
@@ -146,7 +147,7 @@ h1.main-title {text-align:center;color:#666;font-size:13px;font-weight:400;paddi
 .page-item.active .page-link {z-index:1;color:#fff;background-color:#e84c3d;border-color:#e84c3d;}
 .post-hello-cat {position:absolute;width:54px;height:34px;background:url(../images/upiocn.png) no-repeat;z-index:20;}
 .post-list-view .post-list-content {width:60%;float:left;padding:20px 10px 0 10px;visibility:visible;margin-left:20px;}
-.post-list-view h2.post-list-title {font-size:17px;padding-top:5px;margin-bottom:0;}
+.post-list-view h2.post-list-title {font-size:17px;font-weight:400;padding-top:5px;margin-bottom:0;}
 .post-list-view .post-list-title a {color:#565656;font-size:17px;line-height:24px;}
 .post-list-view .post-list-title a:hover {color:#cf3f74;}
 .post-list-text,.post-list-info {font-size:13px;font-weight:300;margin:5px 0;color:#747992;text-shadow:#B9B9B9 0.031em 0.031em 0.051em;}
@@ -172,7 +173,7 @@ h1.main-title {text-align:center;color:#666;font-size:13px;font-weight:400;paddi
 .post-single .post-meta-info {padding:5px 0;line-height:2.2;}
 .post-single .post-content {padding-top:10px;}
 .post-single .post-content,.post-single .post-content p {color:#34495e;font-size:0.9rem;font-weight:300;line-height:1.7;}
-.post-single .post-content h4 {line-height:1.4;font-size:15px;border-bottom:2px #f00 solid;width:auto;display:table;}
+.post-single .post-content h4 {line-height:1.4;font-weight:700;font-size:15px;border-bottom:2px #f00 solid;width:auto;display:table;}
 .post-single .pagination {display:flex;padding-top:20px}
 .post-single .pagination span {font-size:.875rem;line-height:10px;}
 .post-single .fenye {text-align:center;margin:0px auto 10px;}
@@ -188,7 +189,7 @@ h1.main-title {text-align:center;color:#666;font-size:13px;font-weight:400;paddi
 .post-single .ol ol:hover {padding-left:20px;}
 .post-single .ol ol {position:relative;padding-left:15px;border-bottom:1px #dbdce2 dashed;letter-spacing:0.5px;}
 .post-single .ol ol:before {content:'';position:absolute;left:0;top:18px;height:6px;width:6px;border-radius:20px;background-color:#888cdc;}
-.post-single .section-title {position:relative;margin:1em 0;font-size:12px;letter-spacing:1px;letter-spacing:1px;}
+.post-single .section-title {position:relative;margin:1em 0;font-size:12px;letter-spacing:1px;font-weight:700;letter-spacing:1px;}
 .post-single .section-title:before {content:"";position:absolute;top:50%;left:0;width:100%;border-bottom:3px solid #d4e0e6;}
 .post-single .section-title span {position:relative;display:inline-block;padding-right:1.4em;background:#fff;color:#32325d;}
 .post-single .row + .section-title {margin-top:3em;}
