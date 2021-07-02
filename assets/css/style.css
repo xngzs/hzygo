@@ -6,7 +6,7 @@ Author: 专收爆米花
 Author URI: https://www.boxmoe.com
 Version: 3.0
 */
-@font-face {font-family:'Play';font-style:normal;font-weight:400;src:url(../fonts/HarmonyOS_Sans_SC_Bold.ttf) format('truetype');}
+@font-face {font-family:'Play';font-style:normal;font-weight:400;src:url(https://hzygo.vercel.app/harmonyos_sans_sc_regular.woff2) format('woff2');}
 body {font-family:"Play","Microsoft Yahei","Open Sans",sans-serif;color:#5d6f84;font-size:15px;cursor:url(../images/arrow.cur),default;text-shadow:#ecdddd  0.031em 0.031em 0.051em;}
 ::-webkit-scrollbar-thumb {background-color:#a7b5fd;height:50px;outline-offset:-2px;outline:2px solid #fff;}
 ::-webkit-scrollbar {width:6px;height:6px;}
